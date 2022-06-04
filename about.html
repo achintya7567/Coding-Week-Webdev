@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+	<script src="scripts/jquery-ui.js"></script>
+<script src="scripts/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<script>
+function load(){
+	$("#loader").slideDown("slow");
+	setTimeout(next, 1000);
+}
+function next(){
+	$("#inload").fadeIn("slow");
+	$("#inload").addClass("rota");
+	setTimeout(next1, 5700);
+}
+function next1(){
+	$("#inload").fadeOut("slow");
+	$("#loader").slideUp("slow");
+	$("#outload").fadeIn(1000);
+}
+</script>
+</head>
+<body onLoad="load()">
+<div id="loader">
+	<div id="inload"></div>
+</div>
+<div id="outload" onCoad="aspect">
+<div id="outloader_1">
+<div id="outloader_1in">
+	<div id="home-right">
+		<div id="responsible">The Life of<br>Achintya Gupta</div>
+		<div id="sub">The Future belongs to those who believe in the beauty of their dreams</div>
+		<div id="link"><a href="index.html">Back Home</a>&nbsp;|&nbsp;<a href="#intro">About Me</a>&nbsp;|&nbsp;<a href="#port">Photography</a></div>
+	</div>
+</div>
+</div>
+<div id="intro">
+	<div id="heading">
+		<span>About Me</span>
+	</div>
+	<div id="case">
+		<div id="cpic"></div>
+		<div id="ctext">
+			<div id="ctblank"></div>
+		My name's Achintya Gupta and I am pursuing B.Tech in Computer Science and Engineering.
+		I love spending my time coding and watching anime &amp; random videos on youtube. I have learnt Webdev(HTML, CSS, bits of Javascript &amp; jQuery), Python, MySQL, C++. I don't match much with sports but I do like playing badminton occasionally. One of my other interests involves clicking random nature photos.
+		</div>
+	</div>
+</div>
+
+<div id="port">
+	<div id="heading">
+		<span>Random Photography</span>
+	</div>
+	
+<div class="row">
+	<div class="content">
+	<div id="abc" class="column">
+  <img src="assets/ic1.jpg" alt="Sunset at IITG Lake" style="width:100%" id="myImg" class="img">
+  <h3>Sunset at IITG Lake</h3>
+</div>
+</div>
+<div class="content">
+	<div class="column">
+  <img id="myImg1" src="assets/ic7.jpg" alt="Near Old SAC" style="width:100%" class="img">
+  <h3>Near Old SAC</h3>
+	</div>
+</div>
+  <div class="content">
+    <div class="column">
+      <img src="assets/ic3.jpg" alt="IGI Airport Terminal 3, New Delhi" style="width:100%" id="myImg2" class="img">
+      <h3>IGI Airport Terminal 3, New Delhi</h3>
+      <p> </p>
+      <p> </p>
+    </div>
+  </div>
+  <div class="content">
+    <div class="column">
+      <img src="assets/ic4.jpg" alt="A Mesmerizing Sky shot" style="width:100%" id="myImg3" class="img">
+      <h3> A Mesmerizing Sky shot </h3>
+    </div>
+  </div>
+  <div class="content">
+    <div class="column">
+      <img src="assets/ic5.jpg" alt="IITG Lake during NERC" style="width:100%" id="myImg4" class="img">
+      <h3> IITG Lake during NERC</h3>
+    </div>
+  </div>
+  <div class="content">
+    <div class="column">
+      <img src="assets/ic6.jpg" alt="Beautiful Sky Pattern near Swimming Pool" style="width:100%" id="myImg5" class="img" >
+      <h3>Beautiful Sky Pattern near Swimming Pool</h3>
+    </div>
+  </div><br>
+</div>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+var modal= document.getElementById('myModal');
+var img= document.getElementById('myImg');
+var img1= document.getElementById('myImg1');
+var img2= document.getElementById('myImg2');
+var img3= document.getElementById('myImg3');
+var img4= document.getElementById('myImg4');
+var img5= document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img1.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img2.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img3.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img4.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img5.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</div>
+<div id="footer">
+	<div id="footer-left">
+		<p>Coding Week <br>  &copy; Achintya Gupta<br>210101005</p>
+	</div>
+		<center><div id="social">
+			<a href="https://www.facebook.com"><img src="assets/fb-icon.png" height="65px" width="65px" style="border-radius=50%" class="scale">&nbsp;</a>
+			<a href="https://www.twitter.com"><img src="assets/twitter.png" height="65px" width="65px" style="border-radius=50%" class="scale">&nbsp;</a>
+			<a href="https://www.instagram.com/achintya.gupta19/"><img src="assets/insta.png" height="65px" width="65px" style="border-radius=50%" class="scale">&nbsp;</a>
+			<a href="https://www.github.com/achintya7567"><img src="assets/github.svg" height="65px" width="65px" style="border-radius=50%" class="scale">&nbsp;</a>
+		</div></center>
+	</div>
+
+
+
+</div>
+
+</body>
+</html>
