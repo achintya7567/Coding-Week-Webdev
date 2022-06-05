@@ -1,21 +1,21 @@
 @font-face{
-	src: url(../assets/fonts/Boogaloo-Regular.ttf);
+	src: url(assets/fonts/Boogaloo-Regular.ttf);
 	font-family: Boogaloo;
 }
 @font-face{
-	src: url(../assets/fonts/Roboto-Regular.ttf);
+	src: url(assets/fonts/Roboto-Regular.ttf);
 	font-family: Roboto;
 }
 @font-face{
-	src: url(../assets/fonts/Comfortaa-Bold.ttf);
+	src: url(assets/fonts/Comfortaa-Bold.ttf);
 	font-family: Comfortaa;
 }
 @font-face{
-	src: url(../assets/fonts/OpenSans-Regular.ttf);
+	src: url(assets/fonts/OpenSans-Regular.ttf);
 	font-family: Open Sans;
 }
 @font-face{
-	src: url(../assets/fonts/Acme-Regular.ttf);
+	src: url(assets/fonts/Acme-Regular.ttf);
 	font-family: Acme;
 }
 *{

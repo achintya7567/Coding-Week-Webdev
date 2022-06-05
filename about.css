@@ -1,21 +1,21 @@
 @font-face{
-	src: url(../assets/fonts/OpenSans-LightItalic.ttf);
+	src: url(assets/fonts/OpenSans-LightItalic.ttf);
 	font-family: Open Sans;
 }
 @font-face{
-	src: url(../assets/fonts/Boogaloo-Regular.ttf);
+	src: url(assets/fonts/Boogaloo-Regular.ttf);
 	font-family: Boogaloo;
 }
 @font-face{
-	src: url(../assets/fonts/Acme-Regular.ttf);
+	src: url(assets/fonts/Acme-Regular.ttf);
 	font-family: Acme;
 }
 @font-face{
-	src: url(../assets/fonts/Comfortaa-Bold.ttf);
+	src: url(assets/fonts/Comfortaa-Bold.ttf);
 	font-family: Comfortaa;
 }
 @font-face{
-	src: url(../assets/fonts/Roboto-Thin.ttf);
+	src: url(assets/fonts/Roboto-Thin.ttf);
 	font-family: Roboto;
 }
 html, body{
@@ -54,7 +54,7 @@ html, body{
 	left: 40vw;
 	top: calc(50vh - 150px);
 	display: none;
-	background-image: url(../assets/lodr.gif);
+	background-image: url(assets/lodr.gif);
 	background-size: cover;
 	background-position: center;
 	z-index: 1;
@@ -85,7 +85,7 @@ html, body{
 #outloader_1in{
 	height: 100vh;
 	width: 100vw;
-	background-image: url(../assets/bg.gif);
+	background-image: url(assets/bg.gif);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -189,7 +189,7 @@ a:hover{
 	width: 100vw;
 	background: #C9CCD3;
 
-  background-image: url(../assets/whitepat2.jpg);
+  background-image: url(assets/whitepat2.jpg);
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
@@ -225,7 +225,7 @@ div#cpic{
   height: 19vw;
   position: absolute;
   left: 1vw;
-  background-image: url(../assets/prof.jpeg);
+  background-image: url(assets/prof.jpeg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
